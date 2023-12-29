@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Swapi" verbose="1">
+    <test name="testcase" group-by-instances="true">
+        <classes>
+            <class name="test.CheckSuccessResponseOfPeopleTest" />
+            <class name="test.RequestEndpointOfFirstPlanetTest" />
+            <class name="test.RequestEndpointOfSecondMovieTest" />
+            <class name="test.RequestURLElementOnResponseTest" />
+            <class name="test.RequestFilmAndCheckResponseTest" />
+
+        </classes>
+    </test>
+</suite>
